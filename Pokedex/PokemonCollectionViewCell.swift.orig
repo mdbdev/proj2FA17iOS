@@ -1,0 +1,42 @@
+//
+//  PokemonCollectionViewCell.swift
+//  Pokedex
+//
+//  Created by Annie Tang on 9/18/17.
+//  Copyright © 2017 trainingprogram. All rights reserved.
+//
+
+import UIKit
+
+class PokemonCollectionViewCell: UICollectionViewCell {
+    var pokemonImageView: UIImageView!
+    
+/* POKEMON PROPERTIES
+ let name: String!
+ let number: Int!
+ let attack: Int!
+ let defense: Int!
+ let health: Int!
+ let specialAttack: Int!
+ let specialDefense: Int!
+ let species: String!
+ let speed: Int!
+ let total: Int!
+ let types: [String]
+ let imageUrl: String! */
+ 
+    override func awakeFromNib() {
+        
+<<<<<<< HEAD
+        pokemonImage = UIImageView(frame: CGRect(x: contentView.frame.width*0.15, y: contentView.frame.height*0.15, width: contentView.frame.width*0.7, height: contentView.frame.height*0.7))
+//        pokemonImage = getPokemonImage()
+        pokemonImage.contentMode = .scaleAspectFill
+        contentView.addSubview(pokemonImage)
+    }
+=======
+        pokemonImageView = UIImageView(frame: CGRect(x: contentView.frame.width*0.15, y: contentView.frame.height*0.15, width: contentView.frame.width*0.7, height: contentView.frame.height*0.7))
+        pokemonImageView.contentMode = .scaleAspectFill
+        contentView.addSubview(pokemonImageView)
+    }    
+>>>>>>> f13fadab11ac1d63e18959776177fdaee91a9e5c
+}
