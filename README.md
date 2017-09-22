@@ -1,6 +1,6 @@
 # PokeDex
 
-By Srujay Korlakunta and Vineeth Yeevani
+By Srujay Korlakunta & Vineeth Yeevani
 
 This is a simple app that allows users to search for Pokemon in a variety of ways, emulating a real PokeDex.
 
