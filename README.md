@@ -1,6 +1,2 @@
 # proj2FA17iOS
-Repository for Fall 2017 MDB iOS Training Program Mini-Project 2 Submissions
-
-Finalized mini-projects should be stored in personal portfolios, but this repository will be used for providing feedback on code quality using the GitHub code review features.
-
-When pushing code to this repo, DO NOT push to master. Create a new branch and open a pull request.
+This is a Pokedex app which allows user to search for either Pokemon name or search by inputting all critera for defense points, health points, and attack points. It displays both a list and collection view of the Pokemon based on the search and if the user clicks on a specific Pokemon, it displays its profile. 
